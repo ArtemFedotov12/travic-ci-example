@@ -1,11 +1,11 @@
 language: java
 sudo: true
 before_install:
-  - chmod +x mvnw
+  - chmod +x mvn
 jdk:
   - openjdk8
 
-script: ./mvnw clean install
+script: mvn clean install
 
 
 notification:
